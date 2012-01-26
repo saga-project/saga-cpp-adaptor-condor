@@ -1,5 +1,5 @@
-CONDOR ADAPTOR
-==============
+Condor(-G) Adaptor
+==================
 
 Overview
 --------
