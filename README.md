@@ -4,19 +4,17 @@ CONDOR ADAPTOR
 Overview
 --------
 
-The Condor adaptor for SAGA provides the ability for Condor users to
-access its services through the simple programmatic interface of SAGA.
+The Condor adaptor for SAGA provides the ability for Condor and Condor-G users 
+to access its services through the simple programmatic interface of SAGA.
 
 Currently, the adaptor works in conjunction with the Condor command line tools
 to communicate with the Condor scheduler and start jobs on the default universe.
-Alternative implementations using SOAP and the GAHP protocol are planned, but
-not implemented.
 
 
 Status
 ------
 
-Running interactive jobs is currently not supported. Suspend/resume also not
+Running interactive jobs is currently not supported. Suspend/resume is also not
 supported.
 
 Setup
@@ -48,13 +46,13 @@ It is possible to use the adaptor with Condor-G resources
 If you would work with Condor-G directly, you would add something like this 
 into your Condor submit script in order to use a Condor-G resource:
 
-Universe        = grid
-grid_resource   = gt2 belhaven-1.renci.org:2119/jobmanager-condor
+    Universe        = grid
+    grid_resource   = gt2 belhaven-1.renci.org:2119/jobmanager-condor
 
 You can do the same thing through the SAGA Job API, simply by using the 
 following URL in the job service constructor:
 
-saga::job::service js("condorg://belhaven-1.renci.org:2119/jobmanager-condor");
+    saga::job::service js("condorg://belhaven-1.renci.org:2119/jobmanager-condor");
 
 
 Security issues and mitigation strategy
