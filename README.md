@@ -11,14 +11,25 @@ Currently, the adaptor works in conjunction with the Condor command line tools
 to communicate with the Condor scheduler and start jobs on the default universe.
 
 
-Status
-------
+Limitations
+------------
 
-Running interactive jobs is currently not supported. Suspend/resume is also not
-supported.
+* Running interactive jobs is currently not supported. 
+* Suspend/resume is also not supported.
 
 Setup
 -----
+
+Assuming the required SAGA C++ Core libraries are installed and the environment 
+variable $SAGA_LOCATION is set accordingly, the Condor adaptor can be installed
+by typing:
+
+    ./configure
+    make
+    make install
+    
+The optional --with-condor= option can be used in conjunction with ./configure
+to point the installer to the root directory of a specific Condor installation. 
 
 The Condor adaptor requires local access to the Condor binaries. Currently
 condor_submit, condor_rm and condor_q may be used as well. condor_status is
