@@ -1,0 +1,152 @@
+= The Condor Adaptor =
+
+The Condor adaptor allows the SAGA engine to interface to resources managed by
+[http://www.cs.wisc.edu/condor Condor]. Basically, if you have access to a
+Condor pool of machines, you can use SAGA to start and manage jobs on the pool.
+
+This adaptor uses the Condor command-line tools and relies on their proper
+configuration on the host machine.
+
+== Setup and Configuration ==
+
+The Condor adaptor suite is enabled by default on the source tree. It can be
+enabled/disabled through the `--with-adaptor_suites` configure option. E.g.,
+
+{{{
+./configure --with-adaptor_suites=default,condor
+}}}
+
+, enables only the "default" adaptors and the the Condor adaptor.
+
+SAGA attempts to detect Condor binaries in the path and configures the adaptor
+accordingly. If, for some reason, the configure script is not able to locate
+Condor binaries, you can point it in the right direction by using the
+`--with-condor=PATH` option, e.g.,
+
+{{{
+./configure --with-condor=/opt/local/condor-7.0.5/
+}}}
+
+=== Configuration Files ===
+
+Configuration for the adaptor can be found in the source tree at
+[source:saga/trunk/adaptors/condor/job/condor_job_adaptor.ini.in adaptors/condor/job/condor_job_adaptor.ini.in].
+This file is a template that contains the default configuration as well as some
+delimited @variables@ that are replaced by the configure script, to generate the
+file `adaptors/condor/job/condor_job_adaptor.ini`, which later gets installed to
+`${SAGA_LOCATION}/share/saga/saga_condor_job_adaptor.ini`.
+
+Supported configuration options are documented in the default configuration
+file.
+
+== How SAGA maps to Condor ==
+
+The Condor adaptor implements the job package, providing specific support for
+the following classes:
+
+{{{
+saga::job::service
+saga::job::job
+}}}
+
+TODO - Granularity of job management
+TODO - Supported schemes
+
+=== State Model ===
+
+|| '''Condor Status'''  || '''SAGA Job State''' ||
+|| ''none''             || New                  ||
+|| Running              || Running              ||
+|| Idle                 || Running              ||
+|| ^*^Unexpanded        || Running              ||
+|| Held                 || Suspended            ||
+|| Completed            || Done                 ||
+|| Removed              || Canceled             ||
+|| Submission Error     || Failed               ||
+|| ''other''            || Unknown              ||
+^*^According to the Condor documentation, only older versions of Condor use this
+status value.
+
+=== Job Descriptions ===
+
+==== Supported Attributes ====
+
+|| '''SAGA Attribute''' || '''Condor Attribute'''   ||
+|| Queue                || Universe                 ||
+|| Executable           || Executable               ||
+|| Arguments            || Arguments                ||
+|| Environment          || Environment              ||
+|| WorkingDirectory     || Remote_InitialDir        ||
+|| Input                || Input                    ||
+|| Output               || Output                   ||
+|| Error                || Error                    ||
+|| JobStartTime         || Deferral_Time            ||
+|| NumberOfProcesses    || Queue                    ||
+|| ^*^JobContact        || Notify_User              ||
+^*^Only the first 'mailto:' entry is mapped, any remaining entries are ignored.
+
+==== File Transfer Directives ====
+
+By default, Condor transfers files generated in the remote working directory
+back to the submit machine once a job is finished. This can be changed in the
+configuration files for Condor.
+
+The Condor Adaptor maps FileTransfer directives to the Condor attributes
+Transfer_Input_Files, Transfer_Output_Files and Transfer_Output_Remaps.
+
+Current limitations include:
+
+ * Local to remote file renaming is not supported.
+ * Placing files outside the remote working directory is not supported.
+ * Transfer of directory trees is not supported.
+ * (Local or remote) File append operations are not supported (these correspond
+   to the `>>` and `<<` operators) .
+
+==== Requirements Expression ====
+
+Some SAGA attributes are translated into a Requirements expression for Condor.
+The table below shows the mapping.
+
+|| '''SAGA Attribute'''     || '''Condor Requirements'''    ||
+|| CandidateHosts           || Machine                      ||
+|| CPUCount                 || Cpus                         ||
+|| ^*^CPUArchitecture       || Arch                         ||
+|| ^*^OperatingSystemType   || OpSys                        ||
+^*^Currently the values for these attributes are passed as-is, without proper
+translation from the names used in JSDL and the ones in Condor. There is a
+preliminary mapping in the source tree, but it is not being used.
+
+Note that by default Condor adds requirements of its own to this expression.
+Namely, unless the Operating System and Computer Architecture are specified, it
+assumes the user wants the same OS and Architecture of the submit machine.
+
+==== Ignored Attributes ====
+
+Attributes below are ignored with no processing, independent of their value.
+
+|| ^*^Cleanup       ||
+|| TotalCPUTime     ||
+|| WallTimeLimit    ||
+|| JobProject       ||
+^*^Technically, Cleanup=false should be unsupported, but this is not currently
+enforced.
+
+==== Unsupported Attributes ====
+
+Attributes in the table below are not supported by the adaptor. Their presence
+in job descriptions submitted to a Condor service will result in a failure
+running the jobs.
+
+|| ^*^Interactive       ||
+|| ProcessesPerHost     ||
+|| SPMDVariation        ||
+|| ThreadsPerProcess    ||
+^*^`False` is the only value currently supported for the attribute. There are
+plans to support Interactive jobs in the future.
+
+== Internals or Developer notes ==
+
+== Known Issues ==
+
+== Future development ==
+

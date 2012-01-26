@@ -1,0 +1,27 @@
+                          SAGA Condor(-G) Adaptor                      
+                         <http://saga-project.org>
+
+                           - Release Changelog -
+
+  Codebase: https://github.com/saga-project/saga-adaptors-condor
+
+
+  Changes with SAGA Condor Adaptor Version 1.0                  26. Jan. 2012
+  ---------------------------------------------------------------------------
+
+  o Fixed file-staging
+  o Moved to GitHub: https://github.com/saga-project/saga-adaptors-condor
+
+
+
+  Changes with SAGA Condor Adaptor Version 0.9.0             14. October 2011
+  ---------------------------------------------------------------------------
+
+  o Implemented Condor-G capabilities
+  
+  
+
+  Changes with SAGA Condor Adaptor Version 0.9.0               18. April 2010
+  ---------------------------------------------------------------------------
+
+  o Initital release after repository split-up

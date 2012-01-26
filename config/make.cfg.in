@@ -1,0 +1,32 @@
+#  Copyright (c) 2005-2007 Andre Merzky (andre@merzky.net)
+#
+#  Distributed under the Boost Software License, Version 1.0.
+#  (See accompanying file LICENSE.txt or copy at
+#   http://www.boost.org/LICENSE_1_0.txt)
+
+# vim: ft=make
+
+ifndef SAGA_ADAPTORS_CONDOR_MAKE_CFG_IN
+       SAGA_ADAPTORS_CONDOR_MAKE_CFG_IN=yes
+
+
+SAGA_LOCATION            = @SAGA_LOCATION@
+SAGA_CONFIGURE_OK        = @SAGA_CONFIGURE_OK@
+
+SAGA_HAVE_CONDOR         = @SAGA_HAVE_CONDOR@
+SAGA_CONDOR_LOCATION     = @CONDOR_LOCATION@
+SAGA_CONDOR_VERSION      = @CONDOR_VERSION@
+SAGA_CONDOR_CONFIG       = @CONDOR_CONFIG@
+SAGA_CONDOR_PATH         = @CONDOR_PATH@
+SAGA_CONDOR_BIN_VERSION  = @CONDOR_BIN_VERSION@
+SAGA_CONDOR_BIN_Q        = @CONDOR_BIN_Q@
+SAGA_CONDOR_BIN_SUBMIT   = @CONDOR_BIN_SUBMIT@
+SAGA_CONDOR_BIN_RM       = @CONDOR_BIN_RM@
+
+SAGA_BUILD_ADAPTOR_JOB   = @BUILD_ADAPTOR_JOB@
+
+include $(SAGA_LOCATION)/share/saga/make/saga.util.mk
+
+
+endif # guard
+

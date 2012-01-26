@@ -1,0 +1,88 @@
+#
+# Default configuration file for the Condor Job Adaptor
+#
+#
+# This file documents available configuration options, and provides a sensible
+# initial configuration.
+#
+# Unless otherwise noted, commented settings are the default settings hard-coded
+# in the adaptor. Where default values are not hard-coded in the adaptor
+# itself, reasonable initial settings are provided here.
+#
+
+[saga.condor.defaults]
+# The settings in this section are provided as a convenience for the user and
+# are only used in defining other settins, below. The adaptor itself ignores it.
+
+  # The root of the Condor installation
+  location = @CONDOR_LOCATION@
+
+  # Path to Condor binaries
+  binary_path = @CONDOR_PATH@
+  # Path to Condor configuration files
+  config = @CONDOR_CONFIG@
+
+[saga.adaptors.condor_job]
+  name = condor_job
+
+  ## Path to load the adaptor from. Automatically configured, by default
+  # path = $[saga.location]/lib
+
+  ## Uncomment to disable the adaptor
+  # enabled = false
+
+[saga.adaptors.condor_job.preferences]
+  ## The default resource manager
+  # resource_manager = condor://localhost/
+
+  ## Name of the configuration section containing default attributes for job
+  ## descriptions submitted to Condor.
+  # default_attributes = default_attributes
+
+  # TODO: Add configuration to keep copy of submitted jobs' description?
+
+[saga.adaptors.condor_job.default_attributes]
+# Key/value pairs defined here will be added to the job description submitted to
+# the Condor scheduler. They may be overwritten by settings provided by the
+# application in the SAGA job description.
+
+  ## Condor universe to use when it is not explicitly set in SAGA descriptions
+  ## (Queue attribute).
+  Universe = Vanilla
+
+  ## These entries control the behaviour of FileTransfer directives.
+  Should_Transfer_Files = IF_NEEDED
+  When_To_Transfer_Output = ON_EXIT
+
+  ## For jobs with the JobStartTime attribute set, defines a duration, starting
+  ## at JobStartTime, during which the job will be allowed to start.
+  Deferral_Window = 300
+
+  ## If JobStartTime is far off in the future, determines how long before the
+  ## starting time, resources will be claimed by the job. Leave undefined to
+  ## claim resources immediately upon submission.
+  Deferral_Prep_Time = 1800
+
+[saga.adaptors.condor_job.cli]
+  # Path to search for condor binaries. Leave empty to use system path.
+  binary_path = $[saga.condor.defaults.binary_path]
+
+  ## Name of the configuration section where environment variables set on
+  ## invocation of Condor binaries can be found.
+  # environment = environment
+
+  ## By default, the adaptor creates temporary files to receive asynchronous
+  ## notifications from condor -- the log of job events. Temporary files are
+  ## deleted on program exit.
+  ## If a filename is provided here, it will be used instead.
+  ## Non-absolute filenames are relative to the working directory of the SAGA
+  ## application.
+  # condor_log = saga-condor.log
+
+[saga.adaptors.condor_job.cli.environment]
+# Environment variables for Condor binaries.
+# If this section is commented out, binaries will inherit the environment of the
+# calling process.
+
+  CONDOR_CONFIG = ${CONDOR_CONFIG:$[saga.condor.defaults.config]}
+

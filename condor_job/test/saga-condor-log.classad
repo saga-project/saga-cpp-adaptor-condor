@@ -1,0 +1,649 @@
+<c>
+    <a n="MyType"><s>SubmitEvent</s></a>
+    <a n="EventTypeNumber"><i>0</i></a>
+    <a n="MyType"><s>SubmitEvent</s></a>
+    <a n="EventTime"><s>2008-08-01T23:08:05</s></a>
+    <a n="Cluster"><i>78</i></a>
+    <a n="Proc"><i>0</i></a>
+    <a n="Subproc"><i>0</i></a>
+    <a n="SubmitHost"><s>&lt;127.0.1.1:55333&gt;</s></a>
+</c>
+<c>
+    <a n="MyType"><s>ExecuteEvent</s></a>
+    <a n="EventTypeNumber"><i>1</i></a>
+    <a n="MyType"><s>ExecuteEvent</s></a>
+    <a n="EventTime"><s>2008-08-01T23:08:07</s></a>
+    <a n="Cluster"><i>78</i></a>
+    <a n="Proc"><i>0</i></a>
+    <a n="Subproc"><i>0</i></a>
+    <a n="ExecuteHost"><s>&lt;127.0.1.1:46579&gt;</s></a>
+</c>
+<c>
+    <a n="MyType"><s>JobTerminatedEvent</s></a>
+    <a n="EventTypeNumber"><i>5</i></a>
+    <a n="MyType"><s>JobTerminatedEvent</s></a>
+    <a n="EventTime"><s>2008-08-01T23:08:07</s></a>
+    <a n="Cluster"><i>78</i></a>
+    <a n="Proc"><i>0</i></a>
+    <a n="Subproc"><i>0</i></a>
+    <a n="TerminatedNormally"><b v="t"/></a>
+    <a n="ReturnValue"><i>0</i></a>
+    <a n="RunLocalUsage"><s>Usr 0 00:00:00, Sys 0 00:00:00</s></a>
+    <a n="RunRemoteUsage"><s>Usr 0 00:00:00, Sys 0 00:00:00</s></a>
+    <a n="TotalLocalUsage"><s>Usr 0 00:00:00, Sys 0 00:00:00</s></a>
+    <a n="TotalRemoteUsage"><s>Usr 0 00:00:00, Sys 0 00:00:00</s></a>
+    <a n="SentBytes"><r>0.000000000000000E+00</r></a>
+    <a n="ReceivedBytes"><r>0.000000000000000E+00</r></a>
+    <a n="TotalSentBytes"><r>0.000000000000000E+00</r></a>
+    <a n="TotalReceivedBytes"><r>0.000000000000000E+00</r></a>
+</c>
+<c>
+    <a n="MyType"><s>SubmitEvent</s></a>
+    <a n="EventTypeNumber"><i>0</i></a>
+    <a n="MyType"><s>SubmitEvent</s></a>
+    <a n="EventTime"><s>2008-08-01T23:08:08</s></a>
+    <a n="Cluster"><i>79</i></a>
+    <a n="Proc"><i>0</i></a>
+    <a n="Subproc"><i>0</i></a>
+    <a n="SubmitHost"><s>&lt;127.0.1.1:55333&gt;</s></a>
+</c>
+<c>
+    <a n="MyType"><s>ExecuteEvent</s></a>
+    <a n="EventTypeNumber"><i>1</i></a>
+    <a n="MyType"><s>ExecuteEvent</s></a>
+    <a n="EventTime"><s>2008-08-01T23:08:28</s></a>
+    <a n="Cluster"><i>79</i></a>
+    <a n="Proc"><i>0</i></a>
+    <a n="Subproc"><i>0</i></a>
+    <a n="ExecuteHost"><s>&lt;127.0.1.1:46579&gt;</s></a>
+</c>
+<c>
+    <a n="MyType"><s>JobTerminatedEvent</s></a>
+    <a n="EventTypeNumber"><i>5</i></a>
+    <a n="MyType"><s>JobTerminatedEvent</s></a>
+    <a n="EventTime"><s>2008-08-01T23:08:28</s></a>
+    <a n="Cluster"><i>79</i></a>
+    <a n="Proc"><i>0</i></a>
+    <a n="Subproc"><i>0</i></a>
+    <a n="TerminatedNormally"><b v="t"/></a>
+    <a n="ReturnValue"><i>0</i></a>
+    <a n="RunLocalUsage"><s>Usr 0 00:00:00, Sys 0 00:00:00</s></a>
+    <a n="RunRemoteUsage"><s>Usr 0 00:00:00, Sys 0 00:00:00</s></a>
+    <a n="TotalLocalUsage"><s>Usr 0 00:00:00, Sys 0 00:00:00</s></a>
+    <a n="TotalRemoteUsage"><s>Usr 0 00:00:00, Sys 0 00:00:00</s></a>
+    <a n="SentBytes"><r>0.000000000000000E+00</r></a>
+    <a n="ReceivedBytes"><r>0.000000000000000E+00</r></a>
+    <a n="TotalSentBytes"><r>0.000000000000000E+00</r></a>
+    <a n="TotalReceivedBytes"><r>0.000000000000000E+00</r></a>
+</c>
+<c>
+    <a n="MyType"><s>SubmitEvent</s></a>
+    <a n="EventTypeNumber"><i>0</i></a>
+    <a n="MyType"><s>SubmitEvent</s></a>
+    <a n="EventTime"><s>2008-08-01T23:09:58</s></a>
+    <a n="Cluster"><i>80</i></a>
+    <a n="Proc"><i>0</i></a>
+    <a n="Subproc"><i>0</i></a>
+    <a n="SubmitHost"><s>&lt;127.0.1.1:55333&gt;</s></a>
+</c>
+<c>
+    <a n="MyType"><s>ExecuteEvent</s></a>
+    <a n="EventTypeNumber"><i>1</i></a>
+    <a n="MyType"><s>ExecuteEvent</s></a>
+    <a n="EventTime"><s>2008-08-01T23:10:01</s></a>
+    <a n="Cluster"><i>80</i></a>
+    <a n="Proc"><i>0</i></a>
+    <a n="Subproc"><i>0</i></a>
+    <a n="ExecuteHost"><s>&lt;127.0.1.1:46579&gt;</s></a>
+</c>
+<c>
+    <a n="MyType"><s>JobTerminatedEvent</s></a>
+    <a n="EventTypeNumber"><i>5</i></a>
+    <a n="MyType"><s>JobTerminatedEvent</s></a>
+    <a n="EventTime"><s>2008-08-01T23:10:01</s></a>
+    <a n="Cluster"><i>80</i></a>
+    <a n="Proc"><i>0</i></a>
+    <a n="Subproc"><i>0</i></a>
+    <a n="TerminatedNormally"><b v="t"/></a>
+    <a n="ReturnValue"><i>0</i></a>
+    <a n="RunLocalUsage"><s>Usr 0 00:00:00, Sys 0 00:00:00</s></a>
+    <a n="RunRemoteUsage"><s>Usr 0 00:00:00, Sys 0 00:00:00</s></a>
+    <a n="TotalLocalUsage"><s>Usr 0 00:00:00, Sys 0 00:00:00</s></a>
+    <a n="TotalRemoteUsage"><s>Usr 0 00:00:00, Sys 0 00:00:00</s></a>
+    <a n="SentBytes"><r>0.000000000000000E+00</r></a>
+    <a n="ReceivedBytes"><r>0.000000000000000E+00</r></a>
+    <a n="TotalSentBytes"><r>0.000000000000000E+00</r></a>
+    <a n="TotalReceivedBytes"><r>0.000000000000000E+00</r></a>
+</c>
+<c>
+    <a n="MyType"><s>SubmitEvent</s></a>
+    <a n="EventTypeNumber"><i>0</i></a>
+    <a n="MyType"><s>SubmitEvent</s></a>
+    <a n="EventTime"><s>2008-08-02T02:24:46</s></a>
+    <a n="Cluster"><i>81</i></a>
+    <a n="Proc"><i>0</i></a>
+    <a n="Subproc"><i>0</i></a>
+    <a n="SubmitHost"><s>&lt;127.0.1.1:55333&gt;</s></a>
+</c>
+<c>
+    <a n="MyType"><s>ExecuteEvent</s></a>
+    <a n="EventTypeNumber"><i>1</i></a>
+    <a n="MyType"><s>ExecuteEvent</s></a>
+    <a n="EventTime"><s>2008-08-02T02:24:49</s></a>
+    <a n="Cluster"><i>81</i></a>
+    <a n="Proc"><i>0</i></a>
+    <a n="Subproc"><i>0</i></a>
+    <a n="ExecuteHost"><s>&lt;127.0.1.1:46579&gt;</s></a>
+</c>
+<c>
+    <a n="MyType"><s>JobTerminatedEvent</s></a>
+    <a n="EventTypeNumber"><i>5</i></a>
+    <a n="MyType"><s>JobTerminatedEvent</s></a>
+    <a n="EventTime"><s>2008-08-02T02:24:49</s></a>
+    <a n="Cluster"><i>81</i></a>
+    <a n="Proc"><i>0</i></a>
+    <a n="Subproc"><i>0</i></a>
+    <a n="TerminatedNormally"><b v="t"/></a>
+    <a n="ReturnValue"><i>0</i></a>
+    <a n="RunLocalUsage"><s>Usr 0 00:00:00, Sys 0 00:00:00</s></a>
+    <a n="RunRemoteUsage"><s>Usr 0 00:00:00, Sys 0 00:00:00</s></a>
+    <a n="TotalLocalUsage"><s>Usr 0 00:00:00, Sys 0 00:00:00</s></a>
+    <a n="TotalRemoteUsage"><s>Usr 0 00:00:00, Sys 0 00:00:00</s></a>
+    <a n="SentBytes"><r>0.000000000000000E+00</r></a>
+    <a n="ReceivedBytes"><r>0.000000000000000E+00</r></a>
+    <a n="TotalSentBytes"><r>0.000000000000000E+00</r></a>
+    <a n="TotalReceivedBytes"><r>0.000000000000000E+00</r></a>
+</c>
+<c>
+    <a n="MyType"><s>SubmitEvent</s></a>
+    <a n="EventTypeNumber"><i>0</i></a>
+    <a n="MyType"><s>SubmitEvent</s></a>
+    <a n="EventTime"><s>2008-08-02T02:25:03</s></a>
+    <a n="Cluster"><i>82</i></a>
+    <a n="Proc"><i>0</i></a>
+    <a n="Subproc"><i>0</i></a>
+    <a n="SubmitHost"><s>&lt;127.0.1.1:55333&gt;</s></a>
+</c>
+<c>
+    <a n="MyType"><s>ExecuteEvent</s></a>
+    <a n="EventTypeNumber"><i>1</i></a>
+    <a n="MyType"><s>ExecuteEvent</s></a>
+    <a n="EventTime"><s>2008-08-02T02:25:08</s></a>
+    <a n="Cluster"><i>82</i></a>
+    <a n="Proc"><i>0</i></a>
+    <a n="Subproc"><i>0</i></a>
+    <a n="ExecuteHost"><s>&lt;127.0.1.1:46579&gt;</s></a>
+</c>
+<c>
+    <a n="MyType"><s>JobTerminatedEvent</s></a>
+    <a n="EventTypeNumber"><i>5</i></a>
+    <a n="MyType"><s>JobTerminatedEvent</s></a>
+    <a n="EventTime"><s>2008-08-02T02:25:08</s></a>
+    <a n="Cluster"><i>82</i></a>
+    <a n="Proc"><i>0</i></a>
+    <a n="Subproc"><i>0</i></a>
+    <a n="TerminatedNormally"><b v="t"/></a>
+    <a n="ReturnValue"><i>0</i></a>
+    <a n="RunLocalUsage"><s>Usr 0 00:00:00, Sys 0 00:00:00</s></a>
+    <a n="RunRemoteUsage"><s>Usr 0 00:00:00, Sys 0 00:00:00</s></a>
+    <a n="TotalLocalUsage"><s>Usr 0 00:00:00, Sys 0 00:00:00</s></a>
+    <a n="TotalRemoteUsage"><s>Usr 0 00:00:00, Sys 0 00:00:00</s></a>
+    <a n="SentBytes"><r>0.000000000000000E+00</r></a>
+    <a n="ReceivedBytes"><r>0.000000000000000E+00</r></a>
+    <a n="TotalSentBytes"><r>0.000000000000000E+00</r></a>
+    <a n="TotalReceivedBytes"><r>0.000000000000000E+00</r></a>
+</c>
+<c>
+    <a n="MyType"><s>SubmitEvent</s></a>
+    <a n="EventTypeNumber"><i>0</i></a>
+    <a n="MyType"><s>SubmitEvent</s></a>
+    <a n="EventTime"><s>2008-08-02T02:27:14</s></a>
+    <a n="Cluster"><i>83</i></a>
+    <a n="Proc"><i>0</i></a>
+    <a n="Subproc"><i>0</i></a>
+    <a n="SubmitHost"><s>&lt;127.0.1.1:55333&gt;</s></a>
+</c>
+<c>
+    <a n="MyType"><s>ExecuteEvent</s></a>
+    <a n="EventTypeNumber"><i>1</i></a>
+    <a n="MyType"><s>ExecuteEvent</s></a>
+    <a n="EventTime"><s>2008-08-02T02:27:16</s></a>
+    <a n="Cluster"><i>83</i></a>
+    <a n="Proc"><i>0</i></a>
+    <a n="Subproc"><i>0</i></a>
+    <a n="ExecuteHost"><s>&lt;127.0.1.1:46579&gt;</s></a>
+</c>
+<c>
+    <a n="MyType"><s>JobTerminatedEvent</s></a>
+    <a n="EventTypeNumber"><i>5</i></a>
+    <a n="MyType"><s>JobTerminatedEvent</s></a>
+    <a n="EventTime"><s>2008-08-02T02:27:16</s></a>
+    <a n="Cluster"><i>83</i></a>
+    <a n="Proc"><i>0</i></a>
+    <a n="Subproc"><i>0</i></a>
+    <a n="TerminatedNormally"><b v="t"/></a>
+    <a n="ReturnValue"><i>0</i></a>
+    <a n="RunLocalUsage"><s>Usr 0 00:00:00, Sys 0 00:00:00</s></a>
+    <a n="RunRemoteUsage"><s>Usr 0 00:00:00, Sys 0 00:00:00</s></a>
+    <a n="TotalLocalUsage"><s>Usr 0 00:00:00, Sys 0 00:00:00</s></a>
+    <a n="TotalRemoteUsage"><s>Usr 0 00:00:00, Sys 0 00:00:00</s></a>
+    <a n="SentBytes"><r>0.000000000000000E+00</r></a>
+    <a n="ReceivedBytes"><r>0.000000000000000E+00</r></a>
+    <a n="TotalSentBytes"><r>0.000000000000000E+00</r></a>
+    <a n="TotalReceivedBytes"><r>0.000000000000000E+00</r></a>
+</c>
+<c>
+    <a n="MyType"><s>SubmitEvent</s></a>
+    <a n="EventTypeNumber"><i>0</i></a>
+    <a n="MyType"><s>SubmitEvent</s></a>
+    <a n="EventTime"><s>2008-08-02T02:33:52</s></a>
+    <a n="Cluster"><i>84</i></a>
+    <a n="Proc"><i>0</i></a>
+    <a n="Subproc"><i>0</i></a>
+    <a n="SubmitHost"><s>&lt;127.0.1.1:48463&gt;</s></a>
+</c>
+<c>
+    <a n="MyType"><s>ExecuteEvent</s></a>
+    <a n="EventTypeNumber"><i>1</i></a>
+    <a n="MyType"><s>ExecuteEvent</s></a>
+    <a n="EventTime"><s>2008-08-02T02:38:55</s></a>
+    <a n="Cluster"><i>84</i></a>
+    <a n="Proc"><i>0</i></a>
+    <a n="Subproc"><i>0</i></a>
+    <a n="ExecuteHost"><s>&lt;127.0.1.1:47978&gt;</s></a>
+</c>
+<c>
+    <a n="MyType"><s>JobTerminatedEvent</s></a>
+    <a n="EventTypeNumber"><i>5</i></a>
+    <a n="MyType"><s>JobTerminatedEvent</s></a>
+    <a n="EventTime"><s>2008-08-02T02:38:55</s></a>
+    <a n="Cluster"><i>84</i></a>
+    <a n="Proc"><i>0</i></a>
+    <a n="Subproc"><i>0</i></a>
+    <a n="TerminatedNormally"><b v="t"/></a>
+    <a n="ReturnValue"><i>0</i></a>
+    <a n="RunLocalUsage"><s>Usr 0 00:00:00, Sys 0 00:00:00</s></a>
+    <a n="RunRemoteUsage"><s>Usr 0 00:00:00, Sys 0 00:00:00</s></a>
+    <a n="TotalLocalUsage"><s>Usr 0 00:00:00, Sys 0 00:00:00</s></a>
+    <a n="TotalRemoteUsage"><s>Usr 0 00:00:00, Sys 0 00:00:00</s></a>
+    <a n="SentBytes"><r>0.000000000000000E+00</r></a>
+    <a n="ReceivedBytes"><r>0.000000000000000E+00</r></a>
+    <a n="TotalSentBytes"><r>0.000000000000000E+00</r></a>
+    <a n="TotalReceivedBytes"><r>0.000000000000000E+00</r></a>
+</c>
+<c>
+    <a n="MyType"><s>SubmitEvent</s></a>
+    <a n="EventTypeNumber"><i>0</i></a>
+    <a n="MyType"><s>SubmitEvent</s></a>
+    <a n="EventTime"><s>2008-08-04T10:52:55</s></a>
+    <a n="Cluster"><i>85</i></a>
+    <a n="Proc"><i>0</i></a>
+    <a n="Subproc"><i>0</i></a>
+    <a n="SubmitHost"><s>&lt;127.0.1.1:41449&gt;</s></a>
+</c>
+<c>
+    <a n="MyType"><s>JobAbortedEvent</s></a>
+    <a n="EventTypeNumber"><i>9</i></a>
+    <a n="MyType"><s>JobAbortedEvent</s></a>
+    <a n="EventTime"><s>2008-08-04T10:52:56</s></a>
+    <a n="Cluster"><i>85</i></a>
+    <a n="Proc"><i>0</i></a>
+    <a n="Subproc"><i>0</i></a>
+    <a n="Reason"><s>via condor_rm (by user biochimia)</s></a>
+</c>
+<c>
+    <a n="MyType"><s>SubmitEvent</s></a>
+    <a n="EventTypeNumber"><i>0</i></a>
+    <a n="MyType"><s>SubmitEvent</s></a>
+    <a n="EventTime"><s>2008-08-06T02:10:00</s></a>
+    <a n="Cluster"><i>86</i></a>
+    <a n="Proc"><i>0</i></a>
+    <a n="Subproc"><i>0</i></a>
+    <a n="SubmitHost"><s>&lt;127.0.1.1:56120&gt;</s></a>
+</c>
+<c>
+    <a n="MyType"><s>JobAbortedEvent</s></a>
+    <a n="EventTypeNumber"><i>9</i></a>
+    <a n="MyType"><s>JobAbortedEvent</s></a>
+    <a n="EventTime"><s>2008-08-06T02:10:00</s></a>
+    <a n="Cluster"><i>86</i></a>
+    <a n="Proc"><i>0</i></a>
+    <a n="Subproc"><i>0</i></a>
+    <a n="Reason"><s>via condor_rm (by user biochimia)</s></a>
+</c>
+<c>
+    <a n="MyType"><s>SubmitEvent</s></a>
+    <a n="EventTypeNumber"><i>0</i></a>
+    <a n="MyType"><s>SubmitEvent</s></a>
+    <a n="EventTime"><s>2008-08-06T10:26:39</s></a>
+    <a n="Cluster"><i>87</i></a>
+    <a n="Proc"><i>0</i></a>
+    <a n="Subproc"><i>0</i></a>
+    <a n="SubmitHost"><s>&lt;127.0.1.1:37018&gt;</s></a>
+</c>
+<c>
+    <a n="MyType"><s>JobAbortedEvent</s></a>
+    <a n="EventTypeNumber"><i>9</i></a>
+    <a n="MyType"><s>JobAbortedEvent</s></a>
+    <a n="EventTime"><s>2008-08-06T10:26:39</s></a>
+    <a n="Cluster"><i>87</i></a>
+    <a n="Proc"><i>0</i></a>
+    <a n="Subproc"><i>0</i></a>
+    <a n="Reason"><s>via condor_rm (by user biochimia)</s></a>
+</c>
+<c>
+    <a n="MyType"><s>SubmitEvent</s></a>
+    <a n="EventTypeNumber"><i>0</i></a>
+    <a n="MyType"><s>SubmitEvent</s></a>
+    <a n="EventTime"><s>2008-08-06T20:27:57</s></a>
+    <a n="Cluster"><i>88</i></a>
+    <a n="Proc"><i>0</i></a>
+    <a n="Subproc"><i>0</i></a>
+    <a n="SubmitHost"><s>&lt;127.0.1.1:45103&gt;</s></a>
+</c>
+<c>
+    <a n="MyType"><s>JobAbortedEvent</s></a>
+    <a n="EventTypeNumber"><i>9</i></a>
+    <a n="MyType"><s>JobAbortedEvent</s></a>
+    <a n="EventTime"><s>2008-08-06T20:27:57</s></a>
+    <a n="Cluster"><i>88</i></a>
+    <a n="Proc"><i>0</i></a>
+    <a n="Subproc"><i>0</i></a>
+    <a n="Reason"><s>via condor_rm (by user biochimia)</s></a>
+</c>
+<c>
+    <a n="MyType"><s>SubmitEvent</s></a>
+    <a n="EventTypeNumber"><i>0</i></a>
+    <a n="MyType"><s>SubmitEvent</s></a>
+    <a n="EventTime"><s>2008-08-06T20:28:02</s></a>
+    <a n="Cluster"><i>89</i></a>
+    <a n="Proc"><i>0</i></a>
+    <a n="Subproc"><i>0</i></a>
+    <a n="SubmitHost"><s>&lt;127.0.1.1:45103&gt;</s></a>
+</c>
+<c>
+    <a n="MyType"><s>ExecuteEvent</s></a>
+    <a n="EventTypeNumber"><i>1</i></a>
+    <a n="MyType"><s>ExecuteEvent</s></a>
+    <a n="EventTime"><s>2008-08-06T20:28:20</s></a>
+    <a n="Cluster"><i>89</i></a>
+    <a n="Proc"><i>0</i></a>
+    <a n="Subproc"><i>0</i></a>
+    <a n="ExecuteHost"><s>&lt;127.0.1.1:54996&gt;</s></a>
+</c>
+<c>
+    <a n="MyType"><s>JobTerminatedEvent</s></a>
+    <a n="EventTypeNumber"><i>5</i></a>
+    <a n="MyType"><s>JobTerminatedEvent</s></a>
+    <a n="EventTime"><s>2008-08-06T20:28:20</s></a>
+    <a n="Cluster"><i>89</i></a>
+    <a n="Proc"><i>0</i></a>
+    <a n="Subproc"><i>0</i></a>
+    <a n="TerminatedNormally"><b v="t"/></a>
+    <a n="ReturnValue"><i>0</i></a>
+    <a n="RunLocalUsage"><s>Usr 0 00:00:00, Sys 0 00:00:00</s></a>
+    <a n="RunRemoteUsage"><s>Usr 0 00:00:00, Sys 0 00:00:00</s></a>
+    <a n="TotalLocalUsage"><s>Usr 0 00:00:00, Sys 0 00:00:00</s></a>
+    <a n="TotalRemoteUsage"><s>Usr 0 00:00:00, Sys 0 00:00:00</s></a>
+    <a n="SentBytes"><r>0.000000000000000E+00</r></a>
+    <a n="ReceivedBytes"><r>0.000000000000000E+00</r></a>
+    <a n="TotalSentBytes"><r>0.000000000000000E+00</r></a>
+    <a n="TotalReceivedBytes"><r>0.000000000000000E+00</r></a>
+</c>
+<c>
+    <a n="MyType"><s>SubmitEvent</s></a>
+    <a n="EventTypeNumber"><i>0</i></a>
+    <a n="MyType"><s>SubmitEvent</s></a>
+    <a n="EventTime"><s>2008-08-06T20:43:25</s></a>
+    <a n="Cluster"><i>90</i></a>
+    <a n="Proc"><i>0</i></a>
+    <a n="Subproc"><i>0</i></a>
+    <a n="SubmitHost"><s>&lt;127.0.1.1:45103&gt;</s></a>
+</c>
+<c>
+    <a n="MyType"><s>JobAbortedEvent</s></a>
+    <a n="EventTypeNumber"><i>9</i></a>
+    <a n="MyType"><s>JobAbortedEvent</s></a>
+    <a n="EventTime"><s>2008-08-06T20:43:25</s></a>
+    <a n="Cluster"><i>90</i></a>
+    <a n="Proc"><i>0</i></a>
+    <a n="Subproc"><i>0</i></a>
+    <a n="Reason"><s>via condor_rm (by user biochimia)</s></a>
+</c>
+<c>
+    <a n="MyType"><s>SubmitEvent</s></a>
+    <a n="EventTypeNumber"><i>0</i></a>
+    <a n="MyType"><s>SubmitEvent</s></a>
+    <a n="EventTime"><s>2008-08-06T20:43:35</s></a>
+    <a n="Cluster"><i>91</i></a>
+    <a n="Proc"><i>0</i></a>
+    <a n="Subproc"><i>0</i></a>
+    <a n="SubmitHost"><s>&lt;127.0.1.1:45103&gt;</s></a>
+</c>
+<c>
+    <a n="MyType"><s>JobAbortedEvent</s></a>
+    <a n="EventTypeNumber"><i>9</i></a>
+    <a n="MyType"><s>JobAbortedEvent</s></a>
+    <a n="EventTime"><s>2008-08-06T20:43:35</s></a>
+    <a n="Cluster"><i>91</i></a>
+    <a n="Proc"><i>0</i></a>
+    <a n="Subproc"><i>0</i></a>
+    <a n="Reason"><s>via condor_rm (by user biochimia)</s></a>
+</c>
+<c>
+    <a n="MyType"><s>SubmitEvent</s></a>
+    <a n="EventTypeNumber"><i>0</i></a>
+    <a n="MyType"><s>SubmitEvent</s></a>
+    <a n="EventTime"><s>2008-08-06T20:43:42</s></a>
+    <a n="Cluster"><i>92</i></a>
+    <a n="Proc"><i>0</i></a>
+    <a n="Subproc"><i>0</i></a>
+    <a n="SubmitHost"><s>&lt;127.0.1.1:45103&gt;</s></a>
+</c>
+<c>
+    <a n="MyType"><s>ExecuteEvent</s></a>
+    <a n="EventTypeNumber"><i>1</i></a>
+    <a n="MyType"><s>ExecuteEvent</s></a>
+    <a n="EventTime"><s>2008-08-06T20:44:00</s></a>
+    <a n="Cluster"><i>92</i></a>
+    <a n="Proc"><i>0</i></a>
+    <a n="Subproc"><i>0</i></a>
+    <a n="ExecuteHost"><s>&lt;127.0.1.1:54996&gt;</s></a>
+</c>
+<c>
+    <a n="MyType"><s>JobTerminatedEvent</s></a>
+    <a n="EventTypeNumber"><i>5</i></a>
+    <a n="MyType"><s>JobTerminatedEvent</s></a>
+    <a n="EventTime"><s>2008-08-06T20:44:00</s></a>
+    <a n="Cluster"><i>92</i></a>
+    <a n="Proc"><i>0</i></a>
+    <a n="Subproc"><i>0</i></a>
+    <a n="TerminatedNormally"><b v="t"/></a>
+    <a n="ReturnValue"><i>0</i></a>
+    <a n="RunLocalUsage"><s>Usr 0 00:00:00, Sys 0 00:00:00</s></a>
+    <a n="RunRemoteUsage"><s>Usr 0 00:00:00, Sys 0 00:00:00</s></a>
+    <a n="TotalLocalUsage"><s>Usr 0 00:00:00, Sys 0 00:00:00</s></a>
+    <a n="TotalRemoteUsage"><s>Usr 0 00:00:00, Sys 0 00:00:00</s></a>
+    <a n="SentBytes"><r>0.000000000000000E+00</r></a>
+    <a n="ReceivedBytes"><r>0.000000000000000E+00</r></a>
+    <a n="TotalSentBytes"><r>0.000000000000000E+00</r></a>
+    <a n="TotalReceivedBytes"><r>0.000000000000000E+00</r></a>
+</c>
+<c>
+    <a n="MyType"><s>SubmitEvent</s></a>
+    <a n="EventTypeNumber"><i>0</i></a>
+    <a n="MyType"><s>SubmitEvent</s></a>
+    <a n="EventTime"><s>2008-08-07T02:47:13</s></a>
+    <a n="Cluster"><i>93</i></a>
+    <a n="Proc"><i>0</i></a>
+    <a n="Subproc"><i>0</i></a>
+    <a n="SubmitHost"><s>&lt;127.0.1.1:45103&gt;</s></a>
+</c>
+<c>
+    <a n="MyType"><s>JobAbortedEvent</s></a>
+    <a n="EventTypeNumber"><i>9</i></a>
+    <a n="MyType"><s>JobAbortedEvent</s></a>
+    <a n="EventTime"><s>2008-08-07T02:47:13</s></a>
+    <a n="Cluster"><i>93</i></a>
+    <a n="Proc"><i>0</i></a>
+    <a n="Subproc"><i>0</i></a>
+    <a n="Reason"><s>via condor_rm (by user biochimia)</s></a>
+</c>
+<c>
+    <a n="MyType"><s>SubmitEvent</s></a>
+    <a n="EventTypeNumber"><i>0</i></a>
+    <a n="MyType"><s>SubmitEvent</s></a>
+    <a n="EventTime"><s>2008-08-07T11:33:41</s></a>
+    <a n="Cluster"><i>94</i></a>
+    <a n="Proc"><i>0</i></a>
+    <a n="Subproc"><i>0</i></a>
+    <a n="SubmitHost"><s>&lt;127.0.1.1:33400&gt;</s></a>
+</c>
+<c>
+    <a n="MyType"><s>ExecuteEvent</s></a>
+    <a n="EventTypeNumber"><i>1</i></a>
+    <a n="MyType"><s>ExecuteEvent</s></a>
+    <a n="EventTime"><s>2008-08-07T11:33:44</s></a>
+    <a n="Cluster"><i>94</i></a>
+    <a n="Proc"><i>0</i></a>
+    <a n="Subproc"><i>0</i></a>
+    <a n="ExecuteHost"><s>&lt;127.0.1.1:38340&gt;</s></a>
+</c>
+<c>
+    <a n="MyType"><s>JobTerminatedEvent</s></a>
+    <a n="EventTypeNumber"><i>5</i></a>
+    <a n="MyType"><s>JobTerminatedEvent</s></a>
+    <a n="EventTime"><s>2008-08-07T11:33:44</s></a>
+    <a n="Cluster"><i>94</i></a>
+    <a n="Proc"><i>0</i></a>
+    <a n="Subproc"><i>0</i></a>
+    <a n="TerminatedNormally"><b v="t"/></a>
+    <a n="ReturnValue"><i>0</i></a>
+    <a n="RunLocalUsage"><s>Usr 0 00:00:00, Sys 0 00:00:00</s></a>
+    <a n="RunRemoteUsage"><s>Usr 0 00:00:00, Sys 0 00:00:00</s></a>
+    <a n="TotalLocalUsage"><s>Usr 0 00:00:00, Sys 0 00:00:00</s></a>
+    <a n="TotalRemoteUsage"><s>Usr 0 00:00:00, Sys 0 00:00:00</s></a>
+    <a n="SentBytes"><r>0.000000000000000E+00</r></a>
+    <a n="ReceivedBytes"><r>0.000000000000000E+00</r></a>
+    <a n="TotalSentBytes"><r>0.000000000000000E+00</r></a>
+    <a n="TotalReceivedBytes"><r>0.000000000000000E+00</r></a>
+</c>
+<c>
+    <a n="MyType"><s>SubmitEvent</s></a>
+    <a n="EventTypeNumber"><i>0</i></a>
+    <a n="MyType"><s>SubmitEvent</s></a>
+    <a n="EventTime"><s>2008-08-07T11:34:19</s></a>
+    <a n="Cluster"><i>95</i></a>
+    <a n="Proc"><i>0</i></a>
+    <a n="Subproc"><i>0</i></a>
+    <a n="SubmitHost"><s>&lt;127.0.1.1:33400&gt;</s></a>
+</c>
+<c>
+    <a n="MyType"><s>ExecuteEvent</s></a>
+    <a n="EventTypeNumber"><i>1</i></a>
+    <a n="MyType"><s>ExecuteEvent</s></a>
+    <a n="EventTime"><s>2008-08-07T11:34:21</s></a>
+    <a n="Cluster"><i>95</i></a>
+    <a n="Proc"><i>0</i></a>
+    <a n="Subproc"><i>0</i></a>
+    <a n="ExecuteHost"><s>&lt;127.0.1.1:38340&gt;</s></a>
+</c>
+<c>
+    <a n="MyType"><s>JobTerminatedEvent</s></a>
+    <a n="EventTypeNumber"><i>5</i></a>
+    <a n="MyType"><s>JobTerminatedEvent</s></a>
+    <a n="EventTime"><s>2008-08-07T11:34:22</s></a>
+    <a n="Cluster"><i>95</i></a>
+    <a n="Proc"><i>0</i></a>
+    <a n="Subproc"><i>0</i></a>
+    <a n="TerminatedNormally"><b v="t"/></a>
+    <a n="ReturnValue"><i>0</i></a>
+    <a n="RunLocalUsage"><s>Usr 0 00:00:00, Sys 0 00:00:00</s></a>
+    <a n="RunRemoteUsage"><s>Usr 0 00:00:00, Sys 0 00:00:00</s></a>
+    <a n="TotalLocalUsage"><s>Usr 0 00:00:00, Sys 0 00:00:00</s></a>
+    <a n="TotalRemoteUsage"><s>Usr 0 00:00:00, Sys 0 00:00:00</s></a>
+    <a n="SentBytes"><r>0.000000000000000E+00</r></a>
+    <a n="ReceivedBytes"><r>0.000000000000000E+00</r></a>
+    <a n="TotalSentBytes"><r>0.000000000000000E+00</r></a>
+    <a n="TotalReceivedBytes"><r>0.000000000000000E+00</r></a>
+</c>
+<c>
+    <a n="MyType"><s>SubmitEvent</s></a>
+    <a n="EventTypeNumber"><i>0</i></a>
+    <a n="MyType"><s>SubmitEvent</s></a>
+    <a n="EventTime"><s>2008-08-07T12:31:02</s></a>
+    <a n="Cluster"><i>96</i></a>
+    <a n="Proc"><i>0</i></a>
+    <a n="Subproc"><i>0</i></a>
+    <a n="SubmitHost"><s>&lt;127.0.1.1:36799&gt;</s></a>
+</c>
+<c>
+    <a n="MyType"><s>JobAbortedEvent</s></a>
+    <a n="EventTypeNumber"><i>9</i></a>
+    <a n="MyType"><s>JobAbortedEvent</s></a>
+    <a n="EventTime"><s>2008-08-07T12:31:02</s></a>
+    <a n="Cluster"><i>96</i></a>
+    <a n="Proc"><i>0</i></a>
+    <a n="Subproc"><i>0</i></a>
+    <a n="Reason"><s>via condor_rm (by user biochimia)</s></a>
+</c>
+<c>
+    <a n="MyType"><s>SubmitEvent</s></a>
+    <a n="EventTypeNumber"><i>0</i></a>
+    <a n="MyType"><s>SubmitEvent</s></a>
+    <a n="EventTime"><s>2008-08-07T14:50:11</s></a>
+    <a n="Cluster"><i>97</i></a>
+    <a n="Proc"><i>0</i></a>
+    <a n="Subproc"><i>0</i></a>
+    <a n="SubmitHost"><s>&lt;127.0.1.1:36799&gt;</s></a>
+</c>
+<c>
+    <a n="MyType"><s>JobAbortedEvent</s></a>
+    <a n="EventTypeNumber"><i>9</i></a>
+    <a n="MyType"><s>JobAbortedEvent</s></a>
+    <a n="EventTime"><s>2008-08-07T14:50:11</s></a>
+    <a n="Cluster"><i>97</i></a>
+    <a n="Proc"><i>0</i></a>
+    <a n="Subproc"><i>0</i></a>
+    <a n="Reason"><s>via condor_rm (by user biochimia)</s></a>
+</c>
+<c>
+    <a n="MyType"><s>SubmitEvent</s></a>
+    <a n="EventTypeNumber"><i>0</i></a>
+    <a n="MyType"><s>SubmitEvent</s></a>
+    <a n="EventTime"><s>2008-08-07T14:50:28</s></a>
+    <a n="Cluster"><i>98</i></a>
+    <a n="Proc"><i>0</i></a>
+    <a n="Subproc"><i>0</i></a>
+    <a n="SubmitHost"><s>&lt;127.0.1.1:36799&gt;</s></a>
+</c>
+<c>
+    <a n="MyType"><s>JobAbortedEvent</s></a>
+    <a n="EventTypeNumber"><i>9</i></a>
+    <a n="MyType"><s>JobAbortedEvent</s></a>
+    <a n="EventTime"><s>2008-08-07T14:50:28</s></a>
+    <a n="Cluster"><i>98</i></a>
+    <a n="Proc"><i>0</i></a>
+    <a n="Subproc"><i>0</i></a>
+    <a n="Reason"><s>via condor_rm (by user biochimia)</s></a>
+</c>
+<c>
+    <a n="MyType"><s>SubmitEvent</s></a>
+    <a n="EventTypeNumber"><i>0</i></a>
+    <a n="MyType"><s>SubmitEvent</s></a>
+    <a n="EventTime"><s>2008-08-08T03:22:40</s></a>
+    <a n="Cluster"><i>99</i></a>
+    <a n="Proc"><i>0</i></a>
+    <a n="Subproc"><i>0</i></a>
+    <a n="SubmitHost"><s>&lt;127.0.1.1:37121&gt;</s></a>
+</c>
+<c>
+    <a n="MyType"><s>JobAbortedEvent</s></a>
+    <a n="EventTypeNumber"><i>9</i></a>
+    <a n="MyType"><s>JobAbortedEvent</s></a>
+    <a n="EventTime"><s>2008-08-08T03:22:40</s></a>
+    <a n="Cluster"><i>99</i></a>
+    <a n="Proc"><i>0</i></a>
+    <a n="Subproc"><i>0</i></a>
+    <a n="Reason"><s>via condor_rm (by user biochimia)</s></a>
+</c>

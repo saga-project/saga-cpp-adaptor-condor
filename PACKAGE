@@ -1,0 +1,23 @@
+
+PACKAGE:  saga-adaptors-condor
+VERSION:  1.0
+REVISION: $Revision: 717 $
+
+DEPENDENCIES:
+  saga-core
+  condor
+
+DIRS:
+  config/
+  condor_job/
+
+FILES:
+  PACKAGE
+  README
+  INSTALL
+  LICENSE
+  CHANGES
+  Makefile
+  configure
+  configure.in
+
