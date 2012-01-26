@@ -20,6 +20,8 @@ Limitations
 Setup
 -----
 
+(Please refer to the INSTALL file for more details)
+
 Assuming the required SAGA C++ Core libraries are installed and the environment 
 variable $SAGA_LOCATION is set accordingly, the Condor adaptor can be installed
 by typing:
