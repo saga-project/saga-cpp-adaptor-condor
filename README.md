@@ -1,5 +1,5 @@
-Condor(-G) Adaptor
-==================
+SAGA Condor(-G) Adaptor
+=======================
 
 Overview
 --------
