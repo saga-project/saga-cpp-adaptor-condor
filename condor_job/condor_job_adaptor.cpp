@@ -49,7 +49,7 @@ namespace saga { namespace adaptors { namespace condor {
             entry_map::const_iterator end = entries.end();
             for (entry_map::const_iterator it = entries.begin(); it != end; ++it)
             {
-                std::string key = boost::to_lower_copy((*it).first);
+                std::string key = (*it).first;
                 default_section_.insert(std::make_pair(key, (*it).second));
             }
         }
